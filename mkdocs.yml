@@ -1,10 +1,14 @@
 site_name: FPCA Tech Documentation
 site_url: https://docs.fpca.tech
+extra_css:
+  - css/styles.css
 theme:
   name: material
+  logo: images/branding/logo.png
   analytics: G-SC1MHSNN7X
   features:
     - toc.integrate
+  
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -13,6 +17,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.snippets:
-      auto_append: ['snippets/need-help.md']
+      auto_append: ['.snippets/need-help.md']
       # base_path: ["."]  # for root of repo
       base_path: ['docs']
