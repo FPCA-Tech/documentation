@@ -12,18 +12,18 @@ Welcome to the FPCA Productions Team Documentation! This is a collection of guid
 ## Quick Start Guides {align-center}
 
 <div class="grid cards" markdown>
-- [
+<!-- - [
     ![Audio][icon-audio]{width=75 style="display: block;margin: 0 auto;"}
     <h3 style="text-align:center; margin:0;">Audio</h3>
-  ](./audio)
+  ](audio/index.md)
 - [
     ![Livestream][icon-livestream]{width=75 style="display: block;margin: 0 auto;"}
     <h3 style="text-align:center; margin:0;">Livestream</h3>
-  ](./livestream)
+  ](livestream/index.md) -->
 - [
     ![Slideshows][icon-slides]{width=75 style="display: block;margin: 0 auto;"}
     <h3 style="text-align:center; margin:0;">Slideshows</h3>
-  ](./slides)
+  ](slides/index.md)
 </div>
 
 
