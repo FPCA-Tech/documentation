@@ -1,0 +1,18 @@
+site_name: FPCA Tech Documentation
+site_url: https://docs.fpca.tech
+theme:
+  name: material
+  analytics: G-SC1MHSNN7X
+  features:
+    - toc.integrate
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.snippets:
+      auto_append: ['snippets/need-help.md']
+      # base_path: ["."]  # for root of repo
+      base_path: ['docs']

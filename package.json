@@ -1,0 +1,35 @@
+{
+  "name": "fpca-tech-documentation",
+  "version": "0.0.1",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "warn-commit": "echo '\n\n\n\n Use `npm run commit` \n\n\n\n' && exit 1",
+    "commit": "npx git-cz --no-verify",
+    "clean": "npx prettier --write ./docs/**/*.md"
+  },
+  "pre-commit": [
+    "warn-commit"
+  ],
+  "author": "FPCA Tech Crew",
+  "contributors": [
+    {
+      "name": "Sean Metzgar",
+      "email": "sean.metzgar@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.3.3"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  }
+}
