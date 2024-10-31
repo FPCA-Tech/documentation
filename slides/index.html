@@ -1,0 +1,538 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.fpca.tech/slides/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../snippets/need-help/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.1.14+insiders-4.35.1">
+    
+    
+      
+        <title>Slideshows Quick Start Guide - FPCA Tech Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.14411569.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#slideshows-quick-start-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="FPCA Tech Documentation" class="md-header__button md-logo" aria-label="FPCA Tech Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FPCA Tech Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Slideshows Quick Start Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="FPCA Tech Documentation" class="md-nav__button md-logo" aria-label="FPCA Tech Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    FPCA Tech Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    FPCA Productions Team Documentation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Slides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Slides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Slideshows Quick Start Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    
+  
+    Snippets
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Snippets
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../snippets/need-help/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    Need help
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="slideshows-quick-start-guide">Slideshows Quick Start Guide</h1>
+<div class="grid">
+<div class="admonition note">
+<p class="admonition-title">1. Getting Started**</p>
+<ul>
+<li>The SlideShow Computer in Fellowship Hall should already be powered on, if not, press the power button on the Computer behind the Left monitor in the projection booth (Mac Studio).</li>
+<li>If the computer asks for a password, it is <strong><code>fpca</code></strong> (all lowercase).</li>
+<li>Turn on the Video and Audio power switches on the rack in the projection booth.
+<img alt="Power On Rack" src="../images/slides/qs-booth-rack.png" /></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">2. Powering on the Projectors</p>
+<ul>
+<li>The projectors can be powered on remotely by clicking the <strong>Projector Remotes</strong> button on the Slideshow Computer.
+<img alt="Projector Remotes Button" src="../images/slides/qs-launch-remotes.png" /></li>
+<li>Click the <strong>Power On</strong> button for both projectors. The projectors will take a few moments to warm up and display the image.
+<img alt="Power On Projectors" src="../images/slides/qs-projectors-on.png" /></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">3. Launching ProPresenter</p>
+<ul>
+<li>Open ProPresenter by clicking on the <strong>Start Slides</strong> button on the Slideshow Computer.
+<img alt="Start Slides Button" src="../images/slides/qs-launch-slides.png" /></li>
+</ul>
+<blockquote>
+<p><em><strong>Note:</strong> ProPresenter 7 will open automatically. If it does not, click on the ProPresenter icon in the dock at the bottom of the screen.</em></p>
+</blockquote>
+</div>
+<div class="admonition note">
+<p class="admonition-title">4. Loading the Slideshow</p>
+<ul>
+<li>If you presenting slides on Sunday Morning, the shlidshow should already be loaded. Locate the correct <strong>Playlist</strong> in the <em>left sidebar</em> and click on it to load the slides.</li>
+</ul>
+<p><img alt="Load Playlist" src="../images/slides/qs-select-playlist.png" /></p>
+</div>
+<div class="admonition example">
+<p class="admonition-title"><strong>Quick Info About ProPresenter</strong></p>
+<ul>
+<li>
+<p>It is essenetially a more powerful version of PowerPoint. For now, let's focus on the basics... Playlists, Presentations and Slides.</p>
+</li>
+<li>
+<p>A <strong>Playlist</strong> is a collection of <strong>Presentations</strong>. A <strong>Presentation</strong> is a collection of <strong>Slides</strong>.</p>
+</li>
+<li>
+<p>There is a preview of the current slide in the top right corner of the screen, as well as on the monitor mounted above the main monitor.</p>
+</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">5. Controlling the Slideshow</p>
+<ul>
+<li>To advance to next slide, press the <span class="keys"><kbd class="key-space">Space</kbd></span> or the <span class="keys"><kbd class="key-arrow-right">Right</kbd></span> key on the keyboard. You may also click on any slide to change to that slide.</li>
+<li>To go back to the previous slide, press the <span class="keys"><kbd class="key-arrow-left">Left</kbd></span> key on the keyboard.</li>
+<li>To go to the next Presentation in the Playlist, press the <span class="keys"><kbd class="key-arrow-down">Down</kbd></span>, and to go to the previous Presentation, press the <span class="keys"><kbd class="key-arrow-up">Up</kbd></span>. Note: This will NOT display the first slide in the new Presentation, you will need to press the <span class="keys"><kbd class="key-space">Space</kbd></span> to display the first slide.</li>
+</ul>
+<blockquote>
+<p><em><strong>Pro-tip:</strong> Utilizing blank slides is a great way to find your place if you lose track of where you are in the slideshow. Quickly select a blank slide and then find your place in the presentation.</em></p>
+</blockquote>
+</div>
+<div class="admonition note">
+<p class="admonition-title">6. Ending the Slideshow</p>
+<ul>
+<li>It is best practice to allow the announcement slides to run at least once after Worship ends, so after the Benediction scroll back up to the Welcome &amp; Announcemnts sectiona and click the Announcements slide to display it.</li>
+<li>Once it's time to shut down, start by quitting ProPresenter. You can do this by clicking on the <strong>ProPresenter</strong> menu in the top left corner of the screen and selecting <strong>Quit ProPresenter</strong>, or by pressing <span class="keys"><kbd class="key-command">Cmd</kbd><span>+</span><kbd class="key-q">Q</kbd></span> on the keyboard.</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">7. Powering off the Projectors</p>
+<ul>
+<li>Next, power off the projectors by clicking the <strong>Projector Remotes</strong> button on the Slideshow Computer and clicking the <strong>Power Off</strong> button for both projectors. (If the remotes window is closed, you can reopen it by clicking the <strong>Projector Remotes</strong> button again on the desktop.)
+<img alt="Power Off Projectors" src="../images/slides/qs-projectors-off.png" /></li>
+</ul>
+<blockquote>
+<p><em><strong>Note:</strong> Please leave the Slideshow Computer on, as the Worship Tech Director may need to access it remotely.</em></p>
+</blockquote>
+</div>
+<div class="admonition note">
+<p class="admonition-title">8. Powering off the AV Rack</p>
+<ul>
+<li>Finally, turn off the Video and Audio power switches on the rack in the projection booth.
+<img alt="Power Off Rack" src="../images/slides/qs-booth-rack.png" /></li>
+</ul>
+</div>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Need Help?</p>
+<p>If you have any questions or need assistance, please reach out to the Worship Tech Director or another member of the Productions Team.</p>
+<p><strong>Sean Metzgar</strong>, <em>Worship Tech Director</em><br />
+<a href="tel:610-297-2543">610-297-2543</a> (Call or Text)<br />
+sean.metzgar@fpcallentown.org</p>
+<p><strong>Spinnaker Support</strong>, <em>(Call Sean First)</em><br />
+<a href="tel:610-725-9195">610-725-9195</a> (Call or Text)</p>
+<p><strong><em>If you don't mind having your contact info listed here, please let Sean know.</em></strong></p>
+</div>
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs Insiders
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate"], "search": "../assets/javascripts/workers/search.6c7302c4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.10c6cd24.min.js"></script>
+      
+    
+  </body>
+</html>
