@@ -13,7 +13,11 @@
   "pre-commit": [
     "warn-commit"
   ],
-  "author": "FPCA Tech Crew",
+  "author": {
+    "name": "FPCA Tech Team",
+    "email": "fpcallentowntech@gmail.com",
+    "url": "https://fpca.tech"
+  },
   "contributors": [
     {
       "name": "Sean Metzgar",
