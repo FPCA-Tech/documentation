@@ -1,8 +1,8 @@
 ---
 title: FPCA Productions Team Documentation
 hide:
-    - navigation
-    - toc
+  - navigation
+  - toc
 ---
 
 # FPCA Productions Team Documentation
@@ -25,10 +25,6 @@ Welcome to the FPCA Productions Team Documentation! This is a collection of guid
     <h3 style="text-align:center; margin:0;">Slideshows</h3>
   ](slides/index.md)
 </div>
-
-
-
-
 
 [icon-audio]: ./images/icons/icon-audio.png
 [icon-livestream]: ./images/icons/icon-livestream.png

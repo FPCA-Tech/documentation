@@ -3,6 +3,7 @@ title: Slideshows Quick Start Guide
 ---
 
 # Slideshows Quick Start Guide
+
 <div class="grid" markdown>
 !!! note "1. Getting Started**"
   
@@ -17,7 +18,7 @@ title: Slideshows Quick Start Guide
     ![Projector Remotes Button](../images/slides/qs-launch-remotes.png)
     - Click the **Power On** button for both projectors. The projectors will take a few moments to warm up and display the image.
     ![Power On Projectors](../images/slides/qs-projectors-on.png)
-  
+
 !!! note "3. Launching ProPresenter"
 
     - Open ProPresenter by clicking on the **Start Slides** button on the Slideshow Computer.
@@ -28,11 +29,10 @@ title: Slideshows Quick Start Guide
 !!! note "4. Loading the Slideshow"
 
     - If you presenting slides on Sunday Morning, the shlidshow should already be loaded. Locate the correct **Playlist** in the _left sidebar_ and click on it to load the slides.
-  
+
       ![Load Playlist](../images/slides/qs-select-playlist.png)
 
-!!! example "**Quick Info About ProPresenter**"
-    - It is essenetially a more powerful version of PowerPoint. For now, let's focus on the basics... Playlists, Presentations and Slides.
+!!! example "**Quick Info About ProPresenter**" - It is essenetially a more powerful version of PowerPoint. For now, let's focus on the basics... Playlists, Presentations and Slides.
 
     - A **Playlist** is a collection of **Presentations**. A **Presentation** is a collection of **Slides**.
 
@@ -46,21 +46,14 @@ title: Slideshows Quick Start Guide
 
     > ***Pro-tip:** Utilizing blank slides is a great way to find your place if you lose track of where you are in the slideshow. Quickly select a blank slide and then find your place in the presentation.*
 
-!!! note "6. Ending the Slideshow"
-    - It is best practice to allow the announcement slides to run at least once after Worship ends, so after the Benediction scroll back up to the Welcome & Announcemnts sectiona and click the Announcements slide to display it.
-    - Once it's time to shut down, start by quitting ProPresenter. You can do this by clicking on the **ProPresenter** menu in the top left corner of the screen and selecting **Quit ProPresenter**, or by pressing ++cmd+q++ on the keyboard.
+!!! note "6. Ending the Slideshow" - It is best practice to allow the announcement slides to run at least once after Worship ends, so after the Benediction scroll back up to the Welcome & Announcemnts sectiona and click the Announcements slide to display it. - Once it's time to shut down, start by quitting ProPresenter. You can do this by clicking on the **ProPresenter** menu in the top left corner of the screen and selecting **Quit ProPresenter**, or by pressing ++cmd+q++ on the keyboard.
 
-!!! note "7. Powering off the Projectors"
-    - Next, power off the projectors by clicking the **Projector Remotes** button on the Slideshow Computer and clicking the **Power Off** button for both projectors. (If the remotes window is closed, you can reopen it by clicking the **Projector Remotes** button again on the desktop.)
-    ![Power Off Projectors](../images/slides/qs-projectors-off.png)
+!!! note "7. Powering off the Projectors" - Next, power off the projectors by clicking the **Projector Remotes** button on the Slideshow Computer and clicking the **Power Off** button for both projectors. (If the remotes window is closed, you can reopen it by clicking the **Projector Remotes** button again on the desktop.)
+![Power Off Projectors](../images/slides/qs-projectors-off.png)
 
     > ***Note:** Please leave the Slideshow Computer on, as the Worship Tech Director may need to access it remotely.*
 
-!!! note "8. Powering off the AV Rack"
-    - Finally, turn off the Video and Audio power switches on the rack in the projection booth.
-    ![Power Off Rack](../images/slides/qs-booth-rack.png)
+!!! note "8. Powering off the AV Rack" - Finally, turn off the Video and Audio power switches on the rack in the projection booth.
+![Power Off Rack](../images/slides/qs-booth-rack.png)
 
 </div>
-
-
-

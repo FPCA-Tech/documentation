@@ -20,15 +20,17 @@
   "scripts": {
     "commit": "cz",
     "clean": "npx prettier --write ./docs/**/*.md",
-    "prepare": "husky"
+    "prepare": "husky",
+    "ship": "node check-branch.js && standard-version && git push --follow-tags origin main"
   },
   "devDependencies": {
-    "commitizen": "^4.3.0",
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
+    "commitizen": "^4.3.2",
     "cz-conventional-changelog": "^3.3.0",
-    "@commitlint/cli": "^19.0.0",
-    "@commitlint/config-conventional": "^19.0.0",
-    "husky": "^9.0.0",
-    "prettier": "^3.3.3"
+    "husky": "^9.1.7",
+    "prettier": "^3.8.4",
+    "standard-version": "^9.5.0"
   },
   "config": {
     "commitizen": {
