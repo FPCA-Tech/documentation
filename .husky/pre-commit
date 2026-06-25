@@ -1,0 +1,2 @@
+node check-commit.js
+npm run clean
