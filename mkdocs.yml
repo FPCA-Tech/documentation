@@ -8,15 +8,19 @@ theme:
   analytics: G-SC1MHSNN7X
   features:
     - toc.integrate
-  
+
+plugins:
+  - search # necessary for search to work
+  - awesome-pages
+
 markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight  # Highly recommended to pair with superfences
   - pymdownx.keys
   - pymdownx.snippets:
       auto_append: ['.snippets/need-help.md']
-      # base_path: ["."]  # for root of repo
       base_path: ['docs']

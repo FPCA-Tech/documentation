@@ -1,16 +1,18 @@
 ---
-title: Slideshows Quick Start Guide
+title: Slideshows (Fellowship Hall)
 ---
 
 # Slideshows Quick Start Guide
 
 <div class="grid" markdown>
-!!! note "1. Getting Started**"
+!!! note "1. Getting Started"
   
     - The SlideShow Computer in Fellowship Hall should already be powered on, if not, press the power button on the Computer behind the Left monitor in the projection booth (Mac Studio).
     - If the computer asks for a password, it is **`fpca`** (all lowercase).
     - Turn on the Video and Audio power switches on the rack in the projection booth.
     ![Power On Rack](../images/slides/qs-booth-rack.png)
+        - The *Video Power* switch is near the middle of the rack
+        - The *Audio Power* switch is near the bottom
 
 !!! note "2. Powering on the Projectors"
 
@@ -32,7 +34,9 @@ title: Slideshows Quick Start Guide
 
       ![Load Playlist](../images/slides/qs-select-playlist.png)
 
-!!! example "**Quick Info About ProPresenter**" - It is essenetially a more powerful version of PowerPoint. For now, let's focus on the basics... Playlists, Presentations and Slides.
+!!! example "**Quick Info About ProPresenter**"
+
+    - It is essenetially a more powerful version of PowerPoint. For now, let's focus on the basics... Playlists, Presentations and Slides.
 
     - A **Playlist** is a collection of **Presentations**. A **Presentation** is a collection of **Slides**.
 
@@ -49,11 +53,13 @@ title: Slideshows Quick Start Guide
 !!! note "6. Ending the Slideshow" - It is best practice to allow the announcement slides to run at least once after Worship ends, so after the Benediction scroll back up to the Welcome & Announcemnts sectiona and click the Announcements slide to display it. - Once it's time to shut down, start by quitting ProPresenter. You can do this by clicking on the **ProPresenter** menu in the top left corner of the screen and selecting **Quit ProPresenter**, or by pressing ++cmd+q++ on the keyboard.
 
 !!! note "7. Powering off the Projectors" - Next, power off the projectors by clicking the **Projector Remotes** button on the Slideshow Computer and clicking the **Power Off** button for both projectors. (If the remotes window is closed, you can reopen it by clicking the **Projector Remotes** button again on the desktop.)
-![Power Off Projectors](../images/slides/qs-projectors-off.png)
+
+    ![Power Off Projectors](../images/slides/qs-projectors-off.png)
 
     > ***Note:** Please leave the Slideshow Computer on, as the Worship Tech Director may need to access it remotely.*
 
 !!! note "8. Powering off the AV Rack" - Finally, turn off the Video and Audio power switches on the rack in the projection booth.
-![Power Off Rack](../images/slides/qs-booth-rack.png)
+
+    ![Power Off Rack](../images/slides/qs-booth-rack.png)
 
 </div>
